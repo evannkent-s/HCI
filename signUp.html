@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Page</title>
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+  <header>
+    <nav>
+        <ul>
+            <li><h1 class="logo">Jetflix</h1></li>
+            <li><a href="newsPopular.html">News & Popular</a></li>
+            <li><a href="moviesPage.html">Movies</a></li>
+        </ul>
+    </nav>
+  </header>
+  
+  <div class="container">
+    <h1>Sign Up</h1>
+    
+    <form action="newsPopular.html" method="post">
+      <label for="username">Full Name</label>
+      <input type="text" id="usernameTxt" name="username" >
+  
+      <label for="password">Password</label>
+      <input type="password" id="passwordTxt" name="password" >
+      
+      <label for="confirm-password">Confirm Password</label>
+      <input type="password" id="confirmTxt" name="confirm-password" >
+      
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob" >
+      
+      <label for="gender">Gender</label>
+      <select id="gender" name="gender" >
+        <option value="">Select gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+      
+      <div class="terms">
+        <input type="checkbox" id="terms" name="terms" >
+        <label for="terms">I agree to the terms and conditions</label>
+      </div>
+
+      <footer>
+        <button  class="submitbutton"   onclick="validateForm()">Submit</button>
+      </footer>
+      
+    </form>
+    <script src="sinup.js" defer></script>
+  </div>
+</body>
+</html>

@@ -1,0 +1,140 @@
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #171414;
+    color: rgb(231, 216, 216);
+  }
+  
+  .container {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 20px ;
+  }
+  header {
+    padding: 30px;
+  }
+  
+  .logo {
+    
+    font-size: 24px;
+    font-weight: bold;
+    color: #eb6004;
+
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul {
+    display:flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    margin-top: 50px;
+    padding-top: 30px;
+  }
+  
+  nav ul li a:hover {
+    color: #555;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .jumbotron {
+    padding-top: 700px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    text-align: justify;
+    width: 100%;
+    background-image: url('backgroun.jpg');
+    border-color: aliceblue;
+    border-radius: 2%;
+    color: #fff;
+    background-position: center;
+    margin-bottom: 30px;
+    height: 1000px;
+  }
+  
+  .jumbotron h2 {
+    font-size: 3vw;
+    
+    background-color: #1e191a41;
+  }
+  
+  .jumbotron p {
+    font-size: 2vw;
+    margin-bottom: 20px;
+    background-color: #1e191a41;
+  }
+  
+  .jumbotron .detail-button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #e50914;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 25px;
+    text-decoration: none;
+    
+  }
+  
+  .category {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  .category-title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .movie {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 30px;
+  }
+  
+  .movie-card {
+    position: relative;
+    
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #4d373c;
+    width: fit-content;
+    
+    text-align: center;
+  }
+
+  .movie-image {
+    width: 100%;
+    height: 100%;
+  }
+
+  footer {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  
+  
